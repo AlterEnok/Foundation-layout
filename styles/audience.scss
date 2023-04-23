@@ -122,8 +122,8 @@
   }
 
   .user-card {
-    width: 100%;
     margin: 0;
+    margin-bottom: 15px;
     padding: 22px 0 33px 0;
     display: flex;
     flex-direction: column;
@@ -141,6 +141,7 @@
 
     @include for-large-up {
       max-width: 262px;
+      width: 100%;
     }
 
     &:hover {
