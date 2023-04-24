@@ -57,16 +57,12 @@
     @include for-large-up {
       display: flex;
       justify-content: center;
+      margin-top: -30px;
     }
   }
 
   &__actions {
     margin-top: 30px;
-
-    @include for-large-up {
-      display: flex;
-      justify-content: center;
-    }
   }
 
   &__color-btn {
@@ -123,6 +119,7 @@
 
   .user-card {
     margin: 0;
+    margin-top: -20px;
     margin-bottom: 15px;
     padding: 22px 0 33px 0;
     display: flex;

@@ -814,16 +814,11 @@
   .audience__buttons {
     display: flex;
     justify-content: center;
+    margin-top: -30px;
   }
 }
 .audience__actions {
   margin-top: 30px;
-}
-@media screen and (min-width: 1400px) {
-  .audience__actions {
-    display: flex;
-    justify-content: center;
-  }
 }
 .audience__color-btn .headline__action-btn {
   color: black;
@@ -873,6 +868,7 @@
 }
 .audience .user-card {
   margin: 0;
+  margin-top: -20px;
   margin-bottom: 15px;
   padding: 22px 0 33px 0;
   display: flex;
