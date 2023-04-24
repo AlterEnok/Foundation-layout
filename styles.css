@@ -814,7 +814,6 @@
   .audience__buttons {
     display: flex;
     justify-content: center;
-    margin-top: -30px;
   }
 }
 .audience__actions {
@@ -868,7 +867,6 @@
 }
 .audience .user-card {
   margin: 0;
-  margin-top: -20px;
   margin-bottom: 15px;
   padding: 22px 0 33px 0;
   display: flex;
